@@ -1,0 +1,503 @@
+"to_station","from_station","count"
+"10th St & Penn Ave","Liberty Ave & S Millvale",29
+"Liberty Ave & Baum Blvd","42nd St & Penn Ave",99
+"17th St & Penn Ave","Ross St & Sixth Ave",47
+"Fort Duquesne Blvd & 7th","Isabella St & Federal St",54
+"10th St & Penn Ave","Ross St & Sixth Ave",39
+"S 12th St & E Carson St","First Ave & Smithfield St",50
+"Ross St & Sixth Ave","Ridge Ave & Brighton Rd (CCAC)",53
+"Forbes Ave & Market Sq","Isabella St & Federal St",155
+"North Shore Trail & Ft Duquesne Bridge","21st St & Penn Ave",70
+"10th St & Penn Ave","37th St & Butler St",123
+"S 25th St & E Carson St","Third & Wood",40
+"S 25th St & E Carson St","Forbes Ave & Grant St",41
+"17th St & Penn Ave","37th St & Butler St",44
+"Ellsworth Ave & N Neville St","Ellsworth Ave & N Neville St",235
+"S 27th & Tunnel Blvd","First Ave & Smithfield St",49
+"S 18th St & Sidney St","S 25th St & E Carson St",66
+"First Ave & B St","S 12th St & E Carson St",93
+"Liberty & Stanwix","First Ave & Smithfield St",26
+"Forbes Ave & Market Sq","Penn Ave & N Fairmount St",73
+"42nd St & Penn Ave","S Negley Ave & Baum Blvd",48
+"12th St & Penn Ave","12th St & Penn Ave",442
+"Federal St & E North Ave","10th St & Penn Ave",116
+"Liberty Ave & S Millvale","Taylor St & Liberty Ave",27
+"First Ave & Smithfield St","S 25th St & E Carson St",37
+"Boulevard of the Allies & Parkview Ave","Frew St & Schenley Dr",65
+"First Ave & B St","S 27th & Tunnel Blvd",76
+"Fifth Ave & S Bouquet","Liberty Ave & Baum Blvd",109
+"Forbes Ave & Grant St","S 12th St & E Carson St",69
+"21st St & Penn Ave","Taylor St & Liberty Ave",33
+"17th St & Penn Ave","21st St & Penn Ave",52
+"Liberty & Stanwix","S Whitfield St & Baum Blvd",59
+"10th St & Penn Ave","21st St & Penn Ave",395
+"S Whitfield St & Baum Blvd","S Whitfield St & Baum Blvd",62
+"37th St & Butler St","12th St & Penn Ave",26
+"42nd St & Butler St","Isabella St & Federal St",89
+"North Shore Trail & Ft Duquesne Bridge","S 27th & Tunnel Blvd",38
+"21st St & Penn Ave","12th St & Penn Ave",108
+"Taylor St & Liberty Ave","S Whitfield St & Baum Blvd",45
+"S 25th St & E Carson St","First Ave & B St",27
+"Atwood St & Bates","S 27th & Tunnel Blvd",28
+"Boulevard of the Allies & Parkview Ave","Atwood St & Bates",76
+"Forbes Ave & Grant St","21st St & Penn Ave",36
+"S 18th St & Sidney St","S 22nd St & E Carson St",26
+"North Shore Trail & Ft Duquesne Bridge","Liberty & Stanwix",106
+"Ivy St & Walnut St","Penn Ave & N Fairmount St",39
+"Ridge Ave & Brighton Rd (CCAC)","Isabella St & Federal St",31
+"17th St & Penn Ave","S 12th St & E Carson St",30
+"Bigelow Blvd & Fifth Ave","Alder St & S Higland Ave",45
+"Maryland Ave & Ellsworth Ave","42nd St & Penn Ave",28
+"S Negley Ave & Baum Blvd","S Negley Ave & Baum Blvd",118
+"First Ave & Smithfield St","S 22nd St & E Carson St",27
+"17th St & Penn Ave","Liberty & Stanwix",127
+"10th St & Penn Ave","Liberty & Stanwix",105
+"North Shore Trail & Ft Duquesne Bridge","S 12th St & E Carson St",42
+"42nd St & Butler St","42nd St & Penn Ave",73
+"S Whitfield St & Baum Blvd","Taylor St & Liberty Ave",54
+"S 27th & Tunnel Blvd","S 18th St & Sidney St",209
+"Isabella St & Federal St","Federal St & E North Ave",69
+"Maryland Ave & Walnut St","Alder St & S Higland Ave",28
+"Liberty & Stanwix","12th St & Penn Ave",29
+"Taylor St & Liberty Ave","Taylor St & Liberty Ave",96
+"Unknown","Unknown",27
+"S 25th St & E Carson St","Fifth Ave & S Bouquet",37
+"S 12th St & E Carson St","S 18th St & Sidney St",53
+"37th St & Butler St","37th St & Butler St",293
+"21st St & Penn Ave","Ross St & Sixth Ave",111
+"Third & Wood","S 25th St & E Carson St",33
+"Liberty Ave & S Millvale","Liberty Ave & S Millvale",151
+"S 27th & Tunnel Blvd","21st St & Penn Ave",36
+"Ivy St & Walnut St","S Negley Ave & Baum Blvd",32
+"Penn Ave & Putnam St (Bakery Sq)","Maryland Ave & Walnut St",38
+"12th St & Penn Ave","Liberty & Stanwix",30
+"Liberty & Stanwix","21st St & Penn Ave",120
+"S Negley Ave & Baum Blvd","42nd St & Penn Ave",30
+"Boulevard of the Allies & Parkview Ave","First Ave & B St",44
+"21st St & Penn Ave","37th St & Butler St",119
+"37th St & Butler St","Ross St & Sixth Ave",56
+"Frew St & Schenley Dr","Ivy St & Walnut St",26
+"Ivy St & Walnut St","Penn Ave & Putnam St (Bakery Sq)",52
+"Liberty Ave & Baum Blvd","Ellsworth Ave & N Neville St",26
+"Liberty & Stanwix","Ross St & Sixth Ave",31
+"37th St & Butler St","21st St & Penn Ave",129
+"Fort Duquesne Blvd & 7th","Federal St & E North Ave",50
+"S 27th & Tunnel Blvd","Ross St & Sixth Ave",29
+"Forbes Ave & Market Sq","Federal St & E North Ave",120
+"Ross St & Sixth Ave","Forbes Ave & Market Sq",27
+"21st St & Penn Ave","21st St & Penn Ave",579
+"Ross St & Sixth Ave","Stevenson St & Forbes Ave",36
+"10th St & Penn Ave","Taylor St & Liberty Ave",68
+"Liberty & Stanwix","37th St & Butler St",34
+"Boulevard of the Allies & Parkview Ave","Fifth Ave & S Bouquet",196
+"S Whitfield St & Baum Blvd","Liberty & Stanwix",36
+"S 12th St & E Carson St","Ross St & Sixth Ave",66
+"Alder St & S Higland Ave","Alder St & S Higland Ave",177
+"Schenley Dr at Schenley Plaza","Ivy St & Walnut St",36
+"Maryland Ave & Ellsworth Ave","Ellsworth Ave & N Neville St",32
+"10th St & Penn Ave","S 18th St & Sidney St",30
+"12th St & Penn Ave","21st St & Penn Ave",47
+"Third & Wood","S 22nd St & E Carson St",38
+"S 12th St & E Carson St","S 27th & Tunnel Blvd",112
+"S 27th & Tunnel Blvd","Liberty & Stanwix",59
+"S 18th St & Sidney St","Forbes Ave & Market Sq",61
+"Taylor St & Liberty Ave","Liberty Ave & S Millvale",33
+"Penn Ave & N Fairmount St","Penn Ave & N Fairmount St",97
+"Liberty & Stanwix","Liberty & Stanwix",1057
+"Ivy St & Walnut St","Ellsworth Ave & N Neville St",154
+"42nd St & Penn Ave","Penn Ave & N Fairmount St",35
+"Boulevard of the Allies & Parkview Ave","Bigelow Blvd & Fifth Ave",116
+"S 18th St & Sidney St","Stevenson St & Forbes Ave",115
+"S 27th & Tunnel Blvd","S 27th & Tunnel Blvd",1666
+"S 12th St & E Carson St","Liberty & Stanwix",70
+"Isabella St & Federal St","Isabella St & Federal St",637
+"Liberty & Stanwix","S 27th & Tunnel Blvd",64
+"17th St & Penn Ave","12th St & Penn Ave",49
+"Penn Ave & Putnam St (Bakery Sq)","Bigelow Blvd & Fifth Ave",80
+"10th St & Penn Ave","12th St & Penn Ave",44
+"S 12th St & E Carson St","S 12th St & E Carson St",438
+"21st St & Penn Ave","Liberty & Stanwix",147
+"42nd St & Penn Ave","42nd St & Penn Ave",95
+"Fifth Ave & S Dithridge St","Coltart Ave & Forbes Ave",28
+"North Shore Trail & Ft Duquesne Bridge","12th St & Penn Ave",39
+"Fifth Ave & S Bouquet","Ivy St & Walnut St",207
+"Fifth Ave & S Bouquet","Maryland Ave & Ellsworth Ave",39
+"First Ave & B St","First Ave & Smithfield St",26
+"S 27th & Tunnel Blvd","S 12th St & E Carson St",104
+"Federal St & E North Ave","Third & Wood",31
+"North Shore Trail & Ft Duquesne Bridge","S 18th St & Sidney St",30
+"37th St & Butler St","Liberty & Stanwix",39
+"21st St & Penn Ave","S 27th & Tunnel Blvd",29
+"Federal St & E North Ave","Forbes Ave & Grant St",36
+"First Ave & Smithfield St","Forbes Ave & Market Sq",38
+"Ridge Ave & Brighton Rd (CCAC)","Federal St & E North Ave",40
+"Liberty & Stanwix","S 12th St & E Carson St",73
+"Penn Ave & N Fairmount St","42nd St & Penn Ave",45
+"Zulema St & Coltart Ave","Coltart Ave & Forbes Ave",42
+"Federal St & E North Ave","Ross St & Sixth Ave",46
+"Schenley Dr at Schenley Plaza","Ellsworth Ave & N Neville St",28
+"Centre Ave & Kirkpatrick St","Centre Ave & Kirkpatrick St",33
+"S 12th St & E Carson St","First Ave & B St",87
+"Liberty Ave & S Millvale","Fifth Ave & S Bouquet",41
+"North Shore Trail & Ft Duquesne Bridge","10th St & Penn Ave",71
+"Bigelow Blvd & Fifth Ave","Atwood St & Bates",64
+"Shady Ave & Ellsworth Ave","Shady Ave & Ellsworth Ave",76
+"Liberty Ave & Baum Blvd","Ivy St & Walnut St",27
+"Forbes Ave & Market Sq","Ridge Ave & Brighton Rd (CCAC)",44
+"Frew St & Schenley Dr","Ellsworth Ave & N Neville St",66
+"Penn Ave & Putnam St (Bakery Sq)","Alder St & S Higland Ave",179
+"Alder St & S Higland Ave","Fifth Ave & S Bouquet",93
+"North Shore Trail & Ft Duquesne Bridge","17th St & Penn Ave",33
+"S 27th & Tunnel Blvd","First Ave & B St",105
+"S Euclid Ave & Centre Ave","S Euclid Ave & Centre Ave",122
+"17th St & Penn Ave","10th St & Penn Ave",165
+"S 22nd St & E Carson St","S 25th St & E Carson St",33
+"10th St & Penn Ave","10th St & Penn Ave",799
+"S 25th St & E Carson St","S 18th St & Sidney St",104
+"Forbes Ave & Market Sq","S 22nd St & E Carson St",71
+"10th St & Penn Ave","17th St & Penn Ave",223
+"17th St & Penn Ave","17th St & Penn Ave",204
+"Fifth Ave & S Bouquet","Boulevard of the Allies & Parkview Ave",171
+"42nd St & Penn Ave","Liberty Ave & Baum Blvd",73
+"S 27th & Tunnel Blvd","Fifth Ave & S Bouquet",78
+"Fort Duquesne Blvd & 7th","42nd St & Butler St",45
+"Bigelow Blvd & Fifth Ave","Zulema St & Coltart Ave",28
+"Fifth Ave & S Bouquet","Penn Ave & Putnam St (Bakery Sq)",27
+"Alder St & S Higland Ave","Maryland Ave & Walnut St",29
+"Maryland Ave & Walnut St","Fifth Ave & S Dithridge St",28
+"Forbes Ave & Market Sq","42nd St & Butler St",59
+"Federal St & E North Ave","21st St & Penn Ave",26
+"17th St & Penn Ave","North Shore Trail & Ft Duquesne Bridge",30
+"10th St & Penn Ave","North Shore Trail & Ft Duquesne Bridge",66
+"Ridge Ave & Brighton Rd (CCAC)","Ridge Ave & Brighton Rd (CCAC)",290
+"Forbes Ave & Grant St","17th St & Penn Ave",39
+"S 12th St & E Carson St","Third & Wood",36
+"S 12th St & E Carson St","Forbes Ave & Grant St",77
+"Atwood St & Bates","Atwood St & Bates",245
+"Liberty & Stanwix","Forbes Ave & Grant St",32
+"Liberty & Stanwix","Third & Wood",53
+"Fifth Ave & S Bouquet","Ellsworth Ave & N Neville St",61
+"Fifth Ave & S Dithridge St","Fifth Ave & S Dithridge St",172
+"S 25th St & E Carson St","First Ave & Smithfield St",33
+"S 27th & Tunnel Blvd","Third & Wood",49
+"Atwood St & Bates","Fifth Ave & S Dithridge St",27
+"S 27th & Tunnel Blvd","Forbes Ave & Grant St",31
+"Zulema St & Coltart Ave","Zulema St & Coltart Ave",120
+"Frew St & Schenley Dr","Boulevard of the Allies & Parkview Ave",53
+"Schenley Dr at Schenley Plaza","Penn Ave & Putnam St (Bakery Sq)",36
+"Maryland Ave & Ellsworth Ave","Maryland Ave & Ellsworth Ave",121
+"Federal St & E North Ave","Liberty & Stanwix",32
+"Forbes Ave & Market Sq","S 25th St & E Carson St",31
+"Isabella St & Federal St","Forbes Ave & Market Sq",154
+"Liberty Ave & S Millvale","Bigelow Blvd & Fifth Ave",31
+"S 22nd St & E Carson St","S 22nd St & E Carson St",380
+"Alder St & S Higland Ave","Bigelow Blvd & Fifth Ave",48
+"North Shore Trail & Ft Duquesne Bridge","North Shore Trail & Ft Duquesne Bridge",962
+"Isabella St & Federal St","Fort Duquesne Blvd & 7th",67
+"Maryland Ave & Ellsworth Ave","Ivy St & Walnut St",30
+"42nd St & Butler St","Ivy St & Walnut St",27
+"Ivy St & Walnut St","Ivy St & Walnut St",252
+"Schenley Dr at Schenley Plaza","Boulevard of the Allies & Parkview Ave",244
+"42nd St & Butler St","42nd St & Butler St",432
+"21st St & Penn Ave","Third & Wood",33
+"21st St & Penn Ave","Forbes Ave & Grant St",39
+"Liberty & Stanwix","17th St & Penn Ave",115
+"Coltart Ave & Forbes Ave","Boulevard of the Allies & Parkview Ave",84
+"Liberty & Stanwix","10th St & Penn Ave",147
+"S Negley Ave & Baum Blvd","Ivy St & Walnut St",35
+"Alder St & S Higland Ave","Shady Ave & Ellsworth Ave",27
+"Bigelow Blvd & Fifth Ave","Bigelow Blvd & Fifth Ave",190
+"Penn Ave & Putnam St (Bakery Sq)","Taylor St & Liberty Ave",29
+"Fifth Ave & S Dithridge St","Maryland Ave & Walnut St",28
+"Forbes Ave & Grant St","Forbes Ave & Grant St",218
+"S 12th St & E Carson St","10th St & Penn Ave",30
+"S 25th St & E Carson St","S 27th & Tunnel Blvd",57
+"Zulema St & Coltart Ave","Fifth Ave & S Bouquet",113
+"Ivy St & Walnut St","Liberty Ave & Baum Blvd",33
+"Stevenson St & Forbes Ave","Stevenson St & Forbes Ave",188
+"Ellsworth Ave & N Neville St","Ivy St & Walnut St",100
+"Fort Duquesne Blvd & 7th","Fort Duquesne Blvd & 7th",528
+"Forbes Ave & Market Sq","Fort Duquesne Blvd & 7th",32
+"21st St & Penn Ave","17th St & Penn Ave",42
+"21st St & Penn Ave","10th St & Penn Ave",417
+"Forbes Ave & Market Sq","Stevenson St & Forbes Ave",104
+"Atwood St & Bates","Fifth Ave & S Bouquet",121
+"10th St & Penn Ave","Maryland Ave & Walnut St",40
+"Maryland Ave & Walnut St","Bigelow Blvd & Fifth Ave",40
+"Forbes Ave & Market Sq","Forbes Ave & Market Sq",907
+"Fifth Ave & S Dithridge St","Fifth Ave & S Bouquet",50
+"Ross St & Sixth Ave","Federal St & E North Ave",42
+"Stevenson St & Forbes Ave","Forbes Ave & Market Sq",76
+"First Ave & B St","Forbes Ave & Grant St",36
+"37th St & Butler St","10th St & Penn Ave",114
+"Fort Duquesne Blvd & 7th","Forbes Ave & Market Sq",36
+"S 25th St & E Carson St","S 12th St & E Carson St",57
+"37th St & Butler St","17th St & Penn Ave",50
+"North Shore Trail & Ft Duquesne Bridge","Third & Wood",29
+"Zulema St & Coltart Ave","Bigelow Blvd & Fifth Ave",44
+"21st St & Penn Ave","North Shore Trail & Ft Duquesne Bridge",43
+"Isabella St & Federal St","Ridge Ave & Brighton Rd (CCAC)",26
+"Liberty Ave & Baum Blvd","Liberty Ave & Baum Blvd",153
+"S 27th & Tunnel Blvd","Atwood St & Bates",71
+"Atwood St & Bates","Bigelow Blvd & Fifth Ave",54
+"Maryland Ave & Walnut St","Fifth Ave & S Bouquet",28
+"12th St & Penn Ave","10th St & Penn Ave",34
+"Federal St & E North Ave","12th St & Penn Ave",27
+"Liberty & Stanwix","North Shore Trail & Ft Duquesne Bridge",100
+"Isabella St & Federal St","42nd St & Butler St",88
+"Ridge Ave & Brighton Rd (CCAC)","Forbes Ave & Market Sq",38
+"S 22nd St & E Carson St","Stevenson St & Forbes Ave",43
+"S 27th & Tunnel Blvd","North Shore Trail & Ft Duquesne Bridge",38
+"Penn Ave & N Fairmount St","Ivy St & Walnut St",31
+"Boulevard of the Allies & Parkview Ave","Coltart Ave & Forbes Ave",69
+"42nd St & Butler St","Fort Duquesne Blvd & 7th",51
+"10th St & Penn Ave","Forbes Ave & Grant St",28
+"42nd St & Butler St","Forbes Ave & Market Sq",79
+"S 27th & Tunnel Blvd","Zulema St & Coltart Ave",70
+"Unknown","Schenley Dr at Schenley Plaza",1383
+"Bigelow Blvd & Fifth Ave","Fifth Ave & S Bouquet",27
+"17th St & Penn Ave","Forbes Ave & Grant St",27
+"Maryland Ave & Walnut St","Maryland Ave & Walnut St",144
+"S 12th St & E Carson St","North Shore Trail & Ft Duquesne Bridge",42
+"First Ave & B St","First Ave & B St",527
+"Maryland Ave & Walnut St","First Ave & B St",37
+"Ridge Ave & Brighton Rd (CCAC)","Fort Duquesne Blvd & 7th",26
+"S 22nd St & E Carson St","Forbes Ave & Market Sq",46
+"Bigelow Blvd & Fifth Ave","Liberty Ave & Baum Blvd",42
+"S 27th & Tunnel Blvd","S 22nd St & E Carson St",82
+"North Shore Trail & Ft Duquesne Bridge","Forbes Ave & Market Sq",118
+"Liberty & Stanwix","S 22nd St & E Carson St",79
+"Ellsworth Ave & N Neville St","Frew St & Schenley Dr",56
+"Liberty & Stanwix","42nd St & Butler St",30
+"Isabella St & Federal St","North Shore Trail & Ft Duquesne Bridge",76
+"North Shore Trail & Ft Duquesne Bridge","Fort Duquesne Blvd & 7th",45
+"S 12th St & E Carson St","S 22nd St & E Carson St",103
+"Stevenson St & Forbes Ave","Fifth Ave & S Bouquet",57
+"Liberty Ave & S Millvale","Ivy St & Walnut St",29
+"Forbes Ave & Market Sq","Centre Ave and Consol",40
+"Penn Ave & Putnam St (Bakery Sq)","Ellsworth Ave & N Neville St",29
+"17th St & Penn Ave","Fort Duquesne Blvd & 7th",52
+"Federal St & E North Ave","Federal St & E North Ave",460
+"Alder St & S Higland Ave","Maryland Ave & Ellsworth Ave",32
+"10th St & Penn Ave","Fort Duquesne Blvd & 7th",62
+"37th St & Butler St","42nd St & Butler St",60
+"Coltart Ave & Forbes Ave","Coltart Ave & Forbes Ave",83
+"S 18th St & Sidney St","S 18th St & Sidney St",407
+"Ivy St & Walnut St","Bigelow Blvd & Fifth Ave",81
+"S Negley Ave & Baum Blvd","S Euclid Ave & Centre Ave",30
+"S 22nd St & E Carson St","Forbes Ave & Grant St",27
+"Third & Wood","S 12th St & E Carson St",28
+"S 22nd St & E Carson St","Third & Wood",33
+"42nd St & Butler St","Forbes Ave & Grant St",51
+"10th St & Penn Ave","Forbes Ave & Market Sq",123
+"Alder St & S Higland Ave","Ivy St & Walnut St",112
+"17th St & Penn Ave","Forbes Ave & Market Sq",88
+"Liberty Ave & Baum Blvd","Fifth Ave & S Bouquet",76
+"42nd St & Butler St","Third & Wood",47
+"Forbes Ave & Market Sq","First Ave & B St",66
+"21st St & Penn Ave","42nd St & Butler St",144
+"21st St & Penn Ave","Ivy St & Walnut St",48
+"Liberty & Stanwix","Ridge Ave & Brighton Rd (CCAC)",27
+"Fifth Ave & S Dithridge St","Liberty Ave & Baum Blvd",81
+"Centre Ave and Consol","Ross St & Sixth Ave",43
+"S Negley Ave & Baum Blvd","Atwood St & Bates",29
+"S 27th & Tunnel Blvd","S 25th St & E Carson St",108
+"S 18th St & Sidney St","First Ave & Smithfield St",44
+"Forbes Ave & Grant St","Stevenson St & Forbes Ave",41
+"Penn Ave & Putnam St (Bakery Sq)","Penn Ave & Putnam St (Bakery Sq)",187
+"S Negley Ave & Baum Blvd","Fifth Ave & S Dithridge St",33
+"Ross St & Sixth Ave","S 18th St & Sidney St",26
+"Ivy St & Walnut St","Fifth Ave & S Bouquet",131
+"Maryland Ave & Ellsworth Ave","Fifth Ave & S Bouquet",34
+"S 12th St & E Carson St","S 25th St & E Carson St",65
+"Boulevard of the Allies & Parkview Ave","Boulevard of the Allies & Parkview Ave",193
+"Liberty Ave & Baum Blvd","Bigelow Blvd & Fifth Ave",60
+"Fifth Ave & S Bouquet","Liberty Ave & S Millvale",42
+"Fifth Ave & S Bouquet","Alder St & S Higland Ave",87
+"Isabella St & Federal St","10th St & Penn Ave",92
+"Stevenson St & Forbes Ave","Forbes Ave & Grant St",33
+"First Ave & Smithfield St","First Ave & Smithfield St",204
+"Isabella St & Federal St","17th St & Penn Ave",70
+"Maryland Ave & Ellsworth Ave","Maryland Ave & Walnut St",72
+"Ivy St & Walnut St","Maryland Ave & Walnut St",29
+"Forbes Ave & Market Sq","Forbes Ave & Grant St",36
+"Forbes Ave & Market Sq","Third & Wood",32
+"First Ave & Smithfield St","Taylor St & Liberty Ave",28
+"North Shore Trail & Ft Duquesne Bridge","42nd St & Butler St",35
+"Ross St & Sixth Ave","37th St & Butler St",30
+"Federal St & E North Ave","Isabella St & Federal St",56
+"Fifth Ave & S Dithridge St","Maryland Ave & Ellsworth Ave",27
+"S 12th St & E Carson St","Forbes Ave & Market Sq",86
+"S 27th & Tunnel Blvd","Fort Duquesne Blvd & 7th",28
+"Ellsworth Ave & N Neville St","Fifth Ave & S Bouquet",61
+"S 18th St & Sidney St","S 27th & Tunnel Blvd",220
+"Forbes Ave & Grant St","S 25th St & E Carson St",38
+"42nd St & Butler St","North Shore Trail & Ft Duquesne Bridge",36
+"S 27th & Tunnel Blvd","Stevenson St & Forbes Ave",26
+"First Ave & Smithfield St","S 12th St & E Carson St",59
+"Ross St & Sixth Ave","Ross St & Sixth Ave",220
+"S 27th & Tunnel Blvd","Forbes Ave & Market Sq",73
+"Fifth Ave & S Dithridge St","Ivy St & Walnut St",64
+"Ridge Ave & Brighton Rd (CCAC)","North Shore Trail & Ft Duquesne Bridge",43
+"S 18th St & Sidney St","Liberty & Stanwix",52
+"10th St & Penn Ave","Ridge Ave & Brighton Rd (CCAC)",28
+"Liberty & Stanwix","Forbes Ave & Market Sq",173
+"S 12th St & E Carson St","Stevenson St & Forbes Ave",66
+"Atwood St & Bates","Ivy St & Walnut St",31
+"S Negley Ave & Baum Blvd","Fifth Ave & S Bouquet",28
+"Taylor St & Liberty Ave","Liberty Ave & Baum Blvd",29
+"37th St & Butler St","Forbes Ave & Market Sq",83
+"Fort Duquesne Blvd & 7th","10th St & Penn Ave",56
+"Shady Ave & Ellsworth Ave","Ivy St & Walnut St",32
+"Ellsworth Ave & N Neville St","Maryland Ave & Walnut St",40
+"Fort Duquesne Blvd & 7th","17th St & Penn Ave",47
+"Third & Wood","S 18th St & Sidney St",30
+"Forbes Ave & Market Sq","17th St & Penn Ave",107
+"North Shore Trail & Ft Duquesne Bridge","Ridge Ave & Brighton Rd (CCAC)",56
+"21st St & Penn Ave","Fort Duquesne Blvd & 7th",93
+"Ross St & Sixth Ave","21st St & Penn Ave",77
+"17th St & Penn Ave","Maryland Ave & Ellsworth Ave",28
+"S 18th St & Sidney St","S 12th St & E Carson St",40
+"Forbes Ave & Market Sq","10th St & Penn Ave",122
+"10th St & Penn Ave","42nd St & Butler St",56
+"First Ave & Smithfield St","S 27th & Tunnel Blvd",49
+"17th St & Penn Ave","42nd St & Butler St",70
+"21st St & Penn Ave","Forbes Ave & Market Sq",120
+"Ivy St & Walnut St","Fifth Ave & S Dithridge St",77
+"37th St & Butler St","Fort Duquesne Blvd & 7th",49
+"Schenley Dr at Schenley Plaza","Taylor St & Liberty Ave",28
+"Forbes Ave & Grant St","S 22nd St & E Carson St",28
+"Bigelow Blvd & Fifth Ave","Maryland Ave & Ellsworth Ave",30
+"Fort Duquesne Blvd & 7th","North Shore Trail & Ft Duquesne Bridge",43
+"S Negley Ave & Baum Blvd","Bigelow Blvd & Fifth Ave",32
+"12th St & Penn Ave","Forbes Ave & Market Sq",115
+"Forbes Ave & Market Sq","North Shore Trail & Ft Duquesne Bridge",82
+"Ross St & Sixth Ave","S 12th St & E Carson St",55
+"Ivy St & Walnut St","Shady Ave & Ellsworth Ave",40
+"First Ave & B St","Ridge Ave & Brighton Rd (CCAC)",26
+"Liberty Ave & Baum Blvd","Fifth Ave & S Dithridge St",98
+"Forbes Ave & Grant St","42nd St & Butler St",54
+"Third & Wood","Taylor St & Liberty Ave",55
+"Bigelow Blvd & Fifth Ave","Ivy St & Walnut St",53
+"Alder St & S Higland Ave","Liberty Ave & Baum Blvd",28
+"Maryland Ave & Walnut St","Maryland Ave & Ellsworth Ave",44
+"Ellsworth Ave & N Neville St","Bigelow Blvd & Fifth Ave",31
+"42nd St & Butler St","10th St & Penn Ave",110
+"42nd St & Butler St","17th St & Penn Ave",34
+"Unknown","Forbes Ave & Market Sq",29
+"Maryland Ave & Walnut St","Ivy St & Walnut St",30
+"Liberty Ave & S Millvale","Liberty Ave & Baum Blvd",36
+"Ridge Ave & Brighton Rd (CCAC)","10th St & Penn Ave",29
+"Fifth Ave & S Bouquet","Zulema St & Coltart Ave",87
+"Liberty & Stanwix","42nd St & Penn Ave",70
+"S 18th St & Sidney St","Forbes Ave & Grant St",27
+"S 18th St & Sidney St","Third & Wood",42
+"S 25th St & E Carson St","S 25th St & E Carson St",351
+"21st St & Penn Ave","Isabella St & Federal St",115
+"Isabella St & Federal St","S 12th St & E Carson St",34
+"Schenley Dr at Schenley Plaza","Frew St & Schenley Dr",33
+"Frew St & Schenley Dr","Frew St & Schenley Dr",104
+"North Shore Trail & Ft Duquesne Bridge","Federal St & E North Ave",42
+"42nd St & Butler St","12th St & Penn Ave",40
+"Bigelow Blvd & Fifth Ave","Boulevard of the Allies & Parkview Ave",125
+"37th St & Butler St","Isabella St & Federal St",87
+"Ellsworth Ave & N Neville St","Alder St & S Higland Ave",44
+"Fifth Ave & S Bouquet","Atwood St & Bates",82
+"Liberty & Stanwix","Isabella St & Federal St",130
+"Federal St & E North Ave","Fort Duquesne Blvd & 7th",86
+"10th St & Penn Ave","Federal St & E North Ave",94
+"17th St & Penn Ave","Federal St & E North Ave",32
+"S 27th & Tunnel Blvd","Isabella St & Federal St",32
+"Fifth Ave & S Bouquet","Fifth Ave & S Dithridge St",61
+"Bigelow Blvd & Fifth Ave","S Negley Ave & Baum Blvd",42
+"Forbes Ave & Market Sq","First Ave & Smithfield St",45
+"Isabella St & Federal St","Liberty & Stanwix",153
+"S 12th St & E Carson St","Isabella St & Federal St",63
+"Federal St & E North Ave","Forbes Ave & Market Sq",85
+"First Ave & B St","Boulevard of the Allies & Parkview Ave",40
+"Ross St & Sixth Ave","Centre Ave and Consol",80
+"S Negley Ave & Baum Blvd","Liberty Ave & S Millvale",27
+"Forbes Ave & Market Sq","Taylor St & Liberty Ave",34
+"Stevenson St & Forbes Ave","S 18th St & Sidney St",126
+"S 18th St & Sidney St","First Ave & B St",27
+"Isabella St & Federal St","37th St & Butler St",56
+"S 25th St & E Carson St","S 22nd St & E Carson St",32
+"Forbes Ave & Grant St","Federal St & E North Ave",29
+"Forbes Ave & Market Sq","S 18th St & Sidney St",61
+"S Whitfield St & Baum Blvd","Penn Ave & N Fairmount St",39
+"Maryland Ave & Walnut St","Ellsworth Ave & N Neville St",29
+"Schenley Dr at Schenley Plaza","Zulema St & Coltart Ave",26
+"Forbes Ave & Market Sq","12th St & Penn Ave",96
+"Isabella St & Federal St","Ross St & Sixth Ave",40
+"Atwood St & Bates","Boulevard of the Allies & Parkview Ave",33
+"Fort Duquesne Blvd & 7th","12th St & Penn Ave",28
+"Frew St & Schenley Dr","Fifth Ave & S Dithridge St",78
+"Bigelow Blvd & Fifth Ave","Ellsworth Ave & N Neville St",29
+"Isabella St & Federal St","21st St & Penn Ave",139
+"Taylor St & Liberty Ave","42nd St & Penn Ave",28
+"Schenley Dr at Schenley Plaza","Atwood St & Bates",38
+"S Whitfield St & Baum Blvd","42nd St & Penn Ave",67
+"12th St & Penn Ave","Isabella St & Federal St",41
+"Ivy St & Walnut St","Taylor St & Liberty Ave",42
+"42nd St & Butler St","Taylor St & Liberty Ave",52
+"S 22nd St & E Carson St","First Ave & Smithfield St",49
+"First Ave & Smithfield St","First Ave & B St",78
+"Schenley Dr at Schenley Plaza","Fifth Ave & S Dithridge St",35
+"S Whitfield St & Baum Blvd","S Negley Ave & Baum Blvd",28
+"Liberty & Stanwix","Federal St & E North Ave",62
+"17th St & Penn Ave","Isabella St & Federal St",53
+"10th St & Penn Ave","Isabella St & Federal St",87
+"S Euclid Ave & Centre Ave","Penn Ave & N Fairmount St",34
+"Ellsworth Ave & N Neville St","S Whitfield St & Baum Blvd",42
+"Forbes Ave & Market Sq","Ross St & Sixth Ave",26
+"Isabella St & Federal St","12th St & Penn Ave",65
+"Alder St & S Higland Ave","Ellsworth Ave & N Neville St",47
+"Schenley Dr at Schenley Plaza","Fifth Ave & S Bouquet",57
+"Fort Duquesne Blvd & 7th","37th St & Butler St",44
+"Penn Ave & Putnam St (Bakery Sq)","Ivy St & Walnut St",41
+"Liberty Ave & Baum Blvd","Alder St & S Higland Ave",37
+"Federal St & E North Ave","Ridge Ave & Brighton Rd (CCAC)",44
+"Third & Wood","Third & Wood",245
+"S 22nd St & E Carson St","S 12th St & E Carson St",67
+"Forbes Ave & Market Sq","37th St & Butler St",148
+"Frew St & Schenley Dr","Maryland Ave & Walnut St",66
+"Taylor St & Liberty Ave","Penn Ave & Putnam St (Bakery Sq)",38
+"42nd St & Butler St","Liberty & Stanwix",39
+"Liberty Ave & Baum Blvd","Liberty Ave & S Millvale",31
+"Fifth Ave & S Bouquet","Bigelow Blvd & Fifth Ave",27
+"S Negley Ave & Baum Blvd","S Whitfield St & Baum Blvd",27
+"S 27th & Tunnel Blvd","Ellsworth Ave & N Neville St",26
+"21st St & Penn Ave","Federal St & E North Ave",36
+"S 22nd St & E Carson St","Liberty & Stanwix",74
+"Forbes Ave & Market Sq","21st St & Penn Ave",143
+"North Shore Trail & Ft Duquesne Bridge","Isabella St & Federal St",91
+"Ross St & Sixth Ave","17th St & Penn Ave",46
+"S 22nd St & E Carson St","S 27th & Tunnel Blvd",50
+"Fort Duquesne Blvd & 7th","21st St & Penn Ave",72
+"Schenley Dr at Schenley Plaza","Maryland Ave & Walnut St",65
+"Fifth Ave & S Bouquet","Fifth Ave & S Bouquet",257
+"42nd St & Butler St","Liberty Ave & S Millvale",31
+"Ivy St & Walnut St","Liberty Ave & S Millvale",64
+"Forbes Ave & Market Sq","S 12th St & E Carson St",88
+"42nd St & Butler St","37th St & Butler St",50
+"Third & Wood","Maryland Ave & Walnut St",34
+"42nd St & Penn Ave","S Whitfield St & Baum Blvd",38
+"S Whitfield St & Baum Blvd","Ellsworth Ave & N Neville St",47
+"S 25th St & E Carson St","Forbes Ave & Market Sq",29
+"Ridge Ave & Brighton Rd (CCAC)","Ross St & Sixth Ave",53
+"Stevenson St & Forbes Ave","S 12th St & E Carson St",69
+"Alder St & S Higland Ave","Penn Ave & Putnam St (Bakery Sq)",144
+"Forbes Ave & Market Sq","Liberty & Stanwix",93
+"Centre Ave and Consol","Centre Ave and Consol",82
+"Forbes Ave & Grant St","Isabella St & Federal St",30
+"Fifth Ave & S Bouquet","Maryland Ave & Walnut St",39
+"First Ave & Smithfield St","10th St & Penn Ave",29
+"Forbes Ave & Market Sq","S 27th & Tunnel Blvd",57
+"Maryland Ave & Ellsworth Ave","Alder St & S Higland Ave",26
+"Coltart Ave & Forbes Ave","Shady Ave & Ellsworth Ave",29
+"Schenley Dr at Schenley Plaza","Bigelow Blvd & Fifth Ave",33
+"42nd St & Butler St","21st St & Penn Ave",116
+"Ivy St & Walnut St","Alder St & S Higland Ave",80
+"Stevenson St & Forbes Ave","S 27th & Tunnel Blvd",28
+"Fort Duquesne Blvd & 7th","S 27th & Tunnel Blvd",38
+"Bigelow Blvd & Fifth Ave","Penn Ave & N Fairmount St",33

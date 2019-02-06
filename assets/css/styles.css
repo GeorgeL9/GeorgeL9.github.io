@@ -1,0 +1,21 @@
+a.nav{
+  font-size:x-large;
+}
+
+h3#hero{
+  line-height:0;
+}
+
+h1#hero-bg{
+  line-height:0;
+}
+
+div#nav.row{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+div.row.portfolio_item{
+  padding-bottom:20px;
+}
+

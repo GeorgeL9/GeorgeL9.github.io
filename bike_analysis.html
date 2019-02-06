@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Healthy Ride Pittsburgh Rider Data Analysis</title>
+      <style>
+      body{
+          font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+      }
+      #tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        white-space: nowrap;
+        pointer-events: none;
+      }
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
+      path.group {
+        fill-opacity: .8;
+      }
+      path.chord {
+        fill-opacity: .8;
+        stroke: #000;
+        stroke-width: .25px;
+      }
+      #circle:hover path.fade {
+        display: none;
+      }
+      .commentary{
+          width: 600px;
+          text-align: left;
+      }
+    </style>
+</head>
+<body>
+<center><h1>A Study of HealthyRide Pittsburgh Data</h1><h4>By George Lejnine</h4><h5>Published April 13th, 2016</h5></center>
+<center><div class="commentary">As Pittsburgh becomes more bike friendly through the construction of additional bike lanes, the introduction of the Healthy Ride bicycle sharing program has been a great addition to the city’s infrastructure. The program went live on July 1st, 2015 and has seen 56,373 rides between launch and December 31, 2015. During this time, 48,549 hours of bike riding has been logged, averaging at 52 minutes per ride.<br><br>
+The Healthy Ride program releases quarterly data to the public, and as of writing this they have released two quarters of data, spanning from July 1st, 2015 to December 31, 2015. This data is anonymized, yet contains some very interesting statistics. The data set can be found <a href=https://healthyridepgh.com/data/>here</a>.
+</div> </center>
+<center><h3>Number of Rides vs. Daily Temperature</h3></center>
+<center><div id="temp_vs_rides"></div></center>
+<center><div class="commentary">In this chart we looked at how the daily temperature (provided by NOAA) compares to the number of daily rides. An interesting spike exists on December 12, 2015. This day is a Saturday, and combined with abnormally warm winter weather of 62ºF, ridership peaks at 653 rides. This is the highest number of daily rides since August 22, 2015 (which peaked at 714 rides). Data can be found <a href="temp_vs_rides.csv">here</a>. </div> </center><br><br>
+
+<center><h3>Number of Rides By Day of Week</h3></center>
+<center><div id="day_of_week"></div></center>
+<center><div class="commentary">In this chart we examined which days of the week are the most popular. Saturday by far is the most popular, followed by Sunday. Tuesday is the lowest of all days, with the number of rides picking up as the week goes by. The data set can be found <a href="punch_day.csv">here</a>.</div> </center>
+
+<center><h3>Ride Distribution by Day of Week and Time of Day</h3></center>
+<center><div id="chart"></div></center>
+<center><div class="commentary">This chart goes into more depth looking at what time of the day is most popular, broken down by day of the week. As we saw in the chart above, Saturday is the most popular, peaking at 3PM. Adding up the number of rides per hour for the entire week, 6PM is the most popular accounting for 4953 rides (8.78% of all rides). Data can be found <a href="punch_hour.csv">here</a>.</div></center>
+<br><br>
+
+<center><h3>Ride Distribution by Length of Ride</h3></center>
+<center><div id="ride_time"></div></center>
+<center><div class="commentary">This chart looks at how long bike rides last. Rides under 15 minutes account for 43% of all rides, while 10% of rides exceed 90 minutes. Data can be found <a href="ride_time.csv">here</a>.</div> </center>
+
+
+<center><h3>Station Origination and Termination</h3></center>
+<br><br>
+<div id="tooltip"></div>
+<center><div id="chord_chart"></div></center>
+<br>
+<center><div class="commentary">This diagram shows where bike rides take place, and to which stations they return. The majority of bicycles end up being returned to the a different station from which they were taken (16,382 same, 39,991 different). S 27th & Tunnel Blvd is by far the most popular station. For some trips, Healthy Ride did not provide the ride origin or end, and has been labeled as “unknown”.  Data can be found <a href="station_destinations">here</a>.</div> </center>
+<br><br>
+<center><div class="commentary">To conclude, Healthy Ride is a wonderful program, and we hope to see it expand the number of stations and bicycles. We are looking forward to seeing the data for 2016 Q1 and seeing how ridership progresses.
+Questions or comments? Email the author at george@lejnine.com
+</div> </center>
+<br>
+<center><div class="commentary">A copy of the PostgreSQL database dump can be downloaded <a href="healthyride">here</a>.
+</div> </center>
+
+</body>
+<!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+mixpanel.init("1e94cf21a796287c7394eefb42e74c1b");</script><!-- end Mixpanel -->
+<script type="text/javascript">
+document.onload = mixpanel.track("bike");
+</script>
+
+
+<div style="height: 200px;"></div>
+<center><p>(c)2016 George Lejnine</p></center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="jquery.csv.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="js/mapper.js"></script>
+<style>
+.chord path {
+  fill-opacity: .67;
+  stroke: #000;
+  stroke-width: .5px;
+}
+
+</style>
+<script>
+      //*******************************************************************
+      //  CREATE MATRIX AND MAP
+      //*******************************************************************
+      d3.csv('station_destinations', function (error, data) {
+        var mpr = chordMpr(data);
+        mpr
+          .addValuesToMap('start')
+          .setFilter(function (row, a, b) {
+            return (row.start === a.name && row.end === b.name)
+          })
+          .setAccessor(function (recs, a, b) {
+            if (!recs[0]) return 0;
+            return +recs[0].count;
+          });
+        drawChords(mpr.getMatrix(), mpr.getMap());
+      });
+      //*******************************************************************
+      //  DRAW THE CHORD DIAGRAM
+      //*******************************************************************
+      function drawChords (matrix, mmap) {
+        var w = 980, h = 800, r1 = h / 2, r0 = r1 - 100;
+        var fill = d3.scale.ordinal()
+            .domain(d3.range(4))
+            .range(["#000000", "#FFDD89", "#957244", "#F26223","#6E7B8B","#4F94CD","#66CDAA"]);
+        var chord = d3.layout.chord()
+            .padding(.02)
+            .sortSubgroups(d3.descending)
+            .sortChords(d3.descending);
+        var arc = d3.svg.arc()
+            .innerRadius(r0)
+            .outerRadius(r0 + 20);
+        var svg = d3.select("#chord_chart").append("svg:svg")
+            .attr("width", w)
+            .attr("height", h)
+          .append("svg:g")
+            .attr("id", "circle")
+            .attr("transform", "translate(" + w / 2 + "," + h / 2 + ")");
+            svg.append("circle")
+                .attr("r", r0 + 20);
+        var rdr = chordRdr(matrix, mmap);
+        chord.matrix(matrix);
+        var g = svg.selectAll("g.group")
+            .data(chord.groups())
+          .enter().append("svg:g")
+            .attr("class", "group")
+            .on("mouseover", mouseover)
+            .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
+        g.append("svg:path")
+            .style("stroke", "black")
+            .style("fill", function(d) { return fill(d.index); })
+            .attr("d", arc);
+        g.append("svg:text")
+            .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+            .attr("dy", ".35em")
+            .style("font-family", "helvetica, arial, sans-serif")
+            .style("font-size", "10px")
+            .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+            .attr("transform", function(d) {
+              return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+                  + "translate(" + (r0 + 26) + ")"
+                  + (d.angle > Math.PI ? "rotate(180)" : "");
+            })
+            .text(function(d) { return rdr(d).gname; });
+          var chordPaths = svg.selectAll("path.chord")
+                .data(chord.chords())
+              .enter().append("svg:path")
+                .attr("class", "chord")
+                .style("stroke", function(d) { return d3.rgb(fill(d.target.index)).darker(); })
+                .style("fill", function(d) { return fill(d.target.index); })
+                .attr("d", d3.svg.chord().radius(r0))
+                .on("mouseover", function (d) {
+                  d3.select("#tooltip")
+                    .style("visibility", "visible")
+                    .html(chordTip(rdr(d)))
+                    .style("top", function () { return (d3.event.pageY - 100)+"px"})
+                    .style("left", function () { return (d3.event.pageX - 100)+"px";})
+                })
+                .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
+          function chordTip (d) {
+            var p = d3.format(".2%"), q = d3.format(",.3r")
+            return "Chord Info:<br/>"
+              + p(d.svalue/d.stotal) + " (" + q(d.svalue) + ") of "
+              + d.sname + " to " + d.tname
+              + (d.sname === d.tname ? "": ("<br/>while...<br/>"
+              + p(d.tvalue/d.ttotal) + " (" + q(d.tvalue) + ") of "
+              + d.tname + " to " + d.sname))
+          }
+          function groupTip (d) {
+            var p = d3.format(".1%"), q = d3.format(",.3r")
+            return "Group Info:<br/>"
+                + d.gname + " : " + q(d.gvalue) + "<br/>"
+                + p(d.gvalue/d.mtotal) + " of Matrix Total (" + q(d.mtotal) + ")"
+          }
+          function mouseover(d, i) {
+            d3.select("#tooltip")
+              .style("visibility", "visible")
+              .html(groupTip(rdr(d)))
+              .style("top", function () { return (d3.event.pageY - 80)+"px"})
+              .style("left", function () { return (d3.event.pageX - 130)+"px";})
+            chordPaths.classed("fade", function(p) {
+              return p.source.index != i
+                  && p.target.index != i;
+            });
+          }
+      }
+    </script>
+<script type="application/javascript">
+    google.charts.load('current', {'packages': ['line', 'corechart']});
+    google.charts.setOnLoadCallback(temp_vs_rides);
+    google.charts.setOnLoadCallback(day_of_week);
+    google.charts.setOnLoadCallback(ride_time);
+    function temp_vs_rides() {
+        $.get("temp_vs_rides.csv", function (csvString) {
+            // transform the CSV string into a 2-dimensional array
+            var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+
+            // this new DataTable object holds all the data
+            var data = new google.visualization.arrayToDataTable(arrayData);
+            // this view can select a subset of the data at a time
+            var view = new google.visualization.DataView(data);
+            //view.setColumns([0,1,2]);
+
+            // set chart options
+            var materialOptions = {
+                width: 900,
+                height: 500,
+                legend: {position: 'none'},
+                series: {
+                    // Gives each series an axis name that matches the Y-axis below.
+                    0: {axis: 'rides'},
+                    1: {axis: 'temp'}
+                },
+                axes: {
+                    // Adds labels to each axis; they don't have to match the axis names.
+                    y: {
+                        rides: {label: '# of Rides'},
+                        temp: {label: 'ºF'}
+                    },
+                    x: {}
+                }
+            };
+            // create the chart object and draw it
+            var chart = new google.charts.Line(document.getElementById('temp_vs_rides'));
+            chart.draw(view, materialOptions);
+        });
+    }
+    function day_of_week() {
+        $.get("punch_day.csv", function (csvString) {
+            // transform the CSV string into a 2-dimensional array
+            var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+
+            // this new DataTable object holds all the data
+            var data = new google.visualization.arrayToDataTable(arrayData);
+            // this view can select a subset of the data at a time
+            var view = new google.visualization.DataView(data);
+            //view.setColumns([0,1,2]);
+
+            // set chart options
+            var materialOptions = {
+                width: 900,
+                height: 500,
+                legend: {position: 'none'}
+            };
+            // create the chart object and draw it
+            var chart = new google.visualization.ColumnChart(document.getElementById('day_of_week'));
+            chart.draw(view, materialOptions);
+        });
+    }
+    function ride_time() {
+        $.get("ride_time.csv", function (csvString) {
+            // transform the CSV string into a 2-dimensional array
+            var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+
+            // this new DataTable object holds all the data
+            var data = new google.visualization.arrayToDataTable(arrayData);
+            // this view can select a subset of the data at a time
+            var view = new google.visualization.DataView(data);
+            //view.setColumns([0,1,2]);
+
+            // set chart options
+            var materialOptions = {
+                width: 900,
+                height: 500,
+                legend: {position: 'none'}
+            };
+            // create the chart object and draw it
+            var chart = new google.visualization.ColumnChart(document.getElementById('ride_time'));
+            chart.draw(view, materialOptions);
+        });
+    }
+</script>
+
+<script>
+    var margin = {top: 10, right: 10, bottom: 10, left: 15}
+    var width = 960 - margin.left - margin.right
+    var height = 405 - margin.top - margin.bottom
+    var padding = 3
+    var xLabelHeight = 30
+    var yLabelWidth = 80
+    var borderWidth = 3
+    var duration = 500
+
+    var chart = d3.select('#chart').append('svg')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .append('g')
+            .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+
+    var border = chart.append('rect')
+            .attr('x', yLabelWidth)
+            .attr('y', xLabelHeight)
+            .style('fill-opacity', 0)
+            .style('stroke', '#000')
+            .style('stroke-width', borderWidth)
+            .style('shape-rendering', 'crispEdges')
+
+    load('punch_hour.csv')
+
+    function load(name) {
+        d3.text(name, function (dataCSV) {
+
+            var labelsX = null
+            var data = []
+
+            d3.csv.parseRows(dataCSV, function (d) {
+
+                if (labelsX === null) return labelsX = d.slice(1)
+
+                var values = d.slice(1)
+                var i = 0
+
+                for (; i < values.length; i++) {
+                    values[i] = parseInt(values[i], 10)
+                }
+
+                data.push({
+                    label: d[0],
+                    values: values
+                })
+
+            })
+
+            update(data, labelsX)
+        })
+    }
+
+    function update(data, labelsX) {
+
+        var allValues = Array.prototype.concat.apply([], data.map(function (d) {
+            return d.values
+        }))
+        var maxWidth = d3.max(data.map(function (d) {
+            return d.values.length
+        }))
+        var maxR = d3.min([(width - yLabelWidth) / maxWidth, (height - xLabelHeight) / data.length]) / 2
+
+        var r = function (d) {
+            if (d === 0) return 0
+
+            f = d3.scale.sqrt()
+                    .domain([d3.min(allValues), d3.max(allValues)])
+                    .rangeRound([2, maxR - padding])
+
+            return f(d)
+        }
+
+        var c = d3.scale.linear()
+                .domain([d3.min(allValues), d3.max(allValues)])
+                .rangeRound([255 * 0.8, 0])
+
+        var rows = chart.selectAll('.row')
+                .data(data, function (d) {
+                    return d.label
+                })
+
+        rows.enter().append('g')
+                .attr('class', 'row')
+
+        rows.exit()
+                .transition()
+                .duration(duration)
+                .style('fill-opacity', 0)
+                .remove()
+
+        rows.transition()
+                .duration(duration)
+                .attr('transform', function (d, i) {
+                    return 'translate(' + yLabelWidth + ',' + (maxR * i * 2 + maxR + xLabelHeight) + ')'
+                })
+
+        var dots = rows.selectAll('circle')
+                .data(function (d) {
+                    return d.values
+                })
+
+        dots.enter().append('circle')
+                .attr('cy', 0)
+                .attr('r', 0)
+                .style('fill', '#ffffff')
+                .text(function (d) {
+                    return d
+                })
+
+        dots.exit()
+                .transition()
+                .duration(duration)
+                .attr('r', 0)
+                .remove()
+
+        dots.transition()
+                .duration(duration)
+                .attr('r', function (d) {
+                    return r(d)
+                })
+                .attr('cx', function (d, i) {
+                    return i * maxR * 2 + maxR
+                })
+                .style('fill', function (d) {
+                    return 'rgb(' + c(d) + ',' + c(d) + ',' + c(d) + ')'
+                })
+
+        var dotLabels = rows.selectAll('.dot-label')
+                .data(function (d) {
+                    return d.values
+                })
+
+        var dotLabelEnter = dotLabels.enter().append('g')
+                .attr('class', 'dot-label')
+                .on('mouseover', function (d) {
+                    var selection = d3.select(this)
+                    selection.select('rect').transition().duration(100).style('opacity', 1)
+                    selection.select("text").transition().duration(100).style('opacity', 1)
+                })
+                .on('mouseout', function (d) {
+                    var selection = d3.select(this)
+                    selection.select('rect').transition().style('opacity', 0)
+                    selection.select("text").transition().style('opacity', 0)
+                })
+
+        dotLabelEnter.append('rect')
+                .style('fill', '#000000')
+                .style('opacity', 0)
+
+        dotLabelEnter.append('text')
+                .style('text-anchor', 'middle')
+                .style('fill', '#ffffff')
+                .style('opacity', 0)
+
+        dotLabels.exit().remove()
+
+        dotLabels
+                .attr('transform', function (d, i) {
+                    return 'translate(' + (i * maxR * 2) + ',' + (-maxR) + ')'
+                })
+                .select('text')
+                .text(function (d) {
+                    return d
+                })
+                .attr('y', maxR + 4)
+                .attr('x', maxR)
+
+        dotLabels
+                .select('rect')
+                .attr('width', maxR * 2)
+                .attr('height', maxR * 2)
+
+        var xLabels = chart.selectAll('.xLabel')
+                .data(labelsX)
+
+        xLabels.enter().append('text')
+                .attr('y', xLabelHeight)
+                .attr('transform', 'translate(0,-6)')
+                .attr('class', 'xLabel')
+                .style('text-anchor', 'middle')
+                .style('fill-opacity', 0)
+
+        xLabels.exit()
+                .transition()
+                .duration(duration)
+                .style('fill-opacity', 0)
+                .remove()
+
+        xLabels.transition()
+                .text(function (d) {
+                    return d
+                })
+                .duration(duration)
+                .attr('x', function (d, i) {
+                    return maxR * i * 2 + maxR + yLabelWidth
+                })
+                .style('fill-opacity', 1)
+
+        var yLabels = chart.selectAll('.yLabel')
+                .data(data, function (d) {
+                    return d.label
+                })
+
+        yLabels.enter().append('text')
+                .text(function (d) {
+                    return d.label
+                })
+                .attr('x', yLabelWidth)
+                .attr('class', 'yLabel')
+                .style('text-anchor', 'end')
+                .style('fill-opacity', 0)
+
+        yLabels.exit()
+                .transition()
+                .duration(duration)
+                .style('fill-opacity', 0)
+                .remove()
+
+        yLabels.transition()
+                .duration(duration)
+                .attr('y', function (d, i) {
+                    return maxR * i * 2 + maxR + xLabelHeight
+                })
+                .attr('transform', 'translate(-6,' + maxR / 2.5 + ')')
+                .style('fill-opacity', 1)
+
+        var vert = chart.selectAll('.vert')
+                .data(labelsX)
+
+        vert.enter().append('line')
+                .attr('class', 'vert')
+                .attr('y1', xLabelHeight + borderWidth / 2)
+                .attr('stroke', '#888')
+                .attr('stroke-width', 1)
+                .style('shape-rendering', 'crispEdges')
+                .style('stroke-opacity', 0)
+
+        vert.exit()
+                .transition()
+                .duration(duration)
+                .style('stroke-opacity', 0)
+                .remove()
+
+        vert.transition()
+                .duration(duration)
+                .attr('x1', function (d, i) {
+                    return maxR * i * 2 + yLabelWidth
+                })
+                .attr('x2', function (d, i) {
+                    return maxR * i * 2 + yLabelWidth
+                })
+                .attr('y2', maxR * 2 * data.length + xLabelHeight - borderWidth / 2)
+                .style('stroke-opacity', function (d, i) {
+                    return i ? 1 : 0
+                })
+
+        var horiz = chart.selectAll('.horiz').data(data, function (d) {
+            return d.label
+        })
+
+        horiz.enter().append('line')
+                .attr('class', 'horiz')
+                .attr('x1', yLabelWidth + borderWidth / 2)
+                .attr('stroke', '#888')
+                .attr('stroke-width', 1)
+                .style('shape-rendering', 'crispEdges')
+                .style('stroke-opacity', 0)
+
+        horiz.exit()
+                .transition()
+                .duration(duration)
+                .style('stroke-opacity', 0)
+                .remove()
+
+        horiz.transition()
+                .duration(duration)
+                .attr('x2', maxR * 2 * labelsX.length + yLabelWidth - borderWidth / 2)
+                .attr('y1', function (d, i) {
+                    return i * maxR * 2 + xLabelHeight
+                })
+                .attr('y2', function (d, i) {
+                    return i * maxR * 2 + xLabelHeight
+                })
+                .style('stroke-opacity', function (d, i) {
+                    return i ? 1 : 0
+                })
+
+        border.transition()
+                .duration(duration)
+                .attr('width', maxR * 2 * labelsX.length)
+                .attr('height', maxR * 2 * data.length)
+
+    }
+</script>
+
+</html>

@@ -1,0 +1,50 @@
+{
+    "Python": {
+        "HiOperator":{
+            "description":"HiOperator is customer suppport as a service.",
+            "dates":"July 2017 - September 2017",
+            "duties":"Short term contract. Built internal tools. Performed codebase cleanup and refactoring. Tech stack consisted of Python/Flask, Celery, Redis, and Postgresql.",
+            "link":"https://hioperator.com"
+        },
+        "Live365": {
+            "description": "Live365 is one of the oldest and most popular internet radio broadcasting and streaming platforms.",
+            "dates": "September 2016 - June 2017",
+            "duties": "Software Developer. Rebuilt broadcaster platform from scratch both on the backend and frontend.",
+            "link": "https://live365.com"
+        },
+        "gitDiscovered": {
+            "description": "gitDiscovered is a sourcing tool for IT recruiters to find the best software developers from online communities like GitHub and StackOverflow.",
+            "dates": "October 2015 - November 2016",
+            "duties": "Founder and Sole Developer",
+            "link": "https://gitDiscovered.com"
+        }
+    },
+    "iOS (Objective-C)": {
+        "Diamond Kinetics SwingTracker": {
+            "description": "SwingTracker is an iOS app powered by a BlueTooth sensor that takes measurements of baseball swings and analyzes them in realtime.",
+            "dates": "April 2015 - September 2015",
+            "duties": "Developed views for user profiles, performance tracking, connections, settings, and video playback/recording. Developed high performance background video recording and uploading solution.",
+            "link": "https://itunes.apple.com/us/app/swingtracker/id937803818"
+        },
+        "EverSafe": {
+            "description": "EverSafe protects the elderly from financial fraud by activley monitoring users bank accounts.",
+            "dates": "March 2015 - May 2015",
+            "duties": "Designed and developed the app. Advised the backend team on API needs for mobile.",
+            "link": "https://itunes.apple.com/us/app/eversafe-fraud-id-protection/id993849747"
+        },
+        "Flippo": {
+            "description": "Flippo was a P2P tasking service for college students.",
+            "dates": "June 2013 - July 2014",
+            "duties": "Developed iOS app and backend infrastructure in Node.JS/MongoDB. Provided beta customer installation and support. Advised on UX/UI.",
+            "link": "(Defunct) https://www.facebook.com/flippoapp/"
+        }
+    },
+    "Blog": {
+      "Healthy Ride Analysis 2015-2016":{
+          "description":"A study of Pittsburgh's bicycle sharing program",
+          "date":"April 13th, 2016",
+          "link":"bike_analysis.html"
+      }
+    },
+    "indexPage": "index.html"
+}

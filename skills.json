@@ -1,0 +1,10 @@
+{
+	"languages":{
+		"Python": "3 Years",
+		"Swift": "2 Years",
+		"Objective-C":"5 Years",
+		"JavaScript":"4 Years",
+		"HTML/CSS":"6 Years"
+	},
+    "indexPage": "index.html"
+}
