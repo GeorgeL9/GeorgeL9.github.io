@@ -4,7 +4,7 @@ function renderPage(name, json) {
     var table = $('#container');
     table.empty();
     //print var name = {
-    table.append('<tr><td class="gutter">1</td><td> <span class="storage">var</span> ' +
+    table.append('<tr><td class="gutter">1</td><td> <span class="storage">let</span> ' +
         name + " = {</tr></td>");
     renderObject(table, json, 1, true);
     var lastRow = $('td:last');
